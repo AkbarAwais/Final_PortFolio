@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mohammed Akbar Awais</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="java.js" charset="utf-8"></script>
+  <script src="https://kit.fontawesome.com/36091bf51e.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <img id="image" src="images\me.png" alt="myimage">
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img class="logo" src="images/log.png" alt="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p></p>
+        <h1>Hi, I'm <br /><span>Mohammed Akbar Awais</span></h1>
+      </div>
+    </div>
+  </div>
+  <!-- --------------------about----------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/me1.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+
+          <p>BE graduate, looking for a Software Developer, Android / Web Developer Roles with strong command in Java, C, Web Development, Android Development, etc. Excellent communication skills and ability to understand client requirements. Continuous learner of new technologies, strategies, and tools.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Java</span><br>Building Projects</li>
+              <li><span>Web Development</span><br>Web app Development</li>
+              <li><span>App Development</span><br>Building Android apps</li>
+            </ul>
+
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Jun 2022 - Jul 2022</span><br>Internship at Xelpmoc Design and Tech Limited</li>
+              <li><span>Nov 2021 - Jan 2022</span><br>Internship at Internship Studio.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2022</span><br>CMR Institute of Technology</li>
+              <li><span>2018</span><br>Indiranagar Composite PU College</li>
+              <li><span>2016</span><br>Kairalee Nilayam High School</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- -------------------------services------------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Software Development</h2>
+          <p></p>
+          <!-- <a href="https://drive.google.com/drive/folders/1TJ0e3_w9M1-dofcSBaTQUHukCeeu6G-a?usp=sharing">Learn more</a> -->
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>Web Development</h2>
+          <p></p>
+          <!-- <a href="https://github.com/AkbarAwais">Learn more</a> -->
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>Android App Development</h2>
+          <p></p>
+          <!-- <a href="https://drive.google.com/drive/folders/1TJ0e3_w9M1-dofcSBaTQUHukCeeu6G-a?usp=sharing">Learn more</a> -->
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- ----------------------------------------portfolio------------------ -->
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png">
+          <div class="layer">
+            <h3>E-Vaccination System</h3>
+            <p>The App will get you the details of the vaccine centers available in Your
+            Locality By a Specific Pin-Code</p>
+            <a href="images/CovidApp.apk" download><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/tic.png">
+          <div class="layer">
+            <h3>Connect Game-3</h3>
+            <p>A Similar Game As Tic Tac Toe with some unique Design And Animations.</p>
+            <a href="images/Connect Game 3.apk" download><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.png">
+          <div class="layer">
+            <h3>User Authentication</h3>
+            <p>A Basic User Authentication Done in Android With some Programs.</p>
+            <a href="images/Autherization.apk"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="https://drive.google.com/drive/folders/1TJ0e3_w9M1-dofcSBaTQUHukCeeu6G-a?usp=sharing" class="btn">See more</a>
+
+    </div>
+  </div>
+  <!-- ------------contact form----------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>awaisu258@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>9663571790</p>
+          <div class="social-icons">
+            <a href="https://github.com/AkbarAwais"><i class="fa-brands fa-github"></i></i></a>
+            <a href="https://www.instagram.com/awaisu8962/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCxEVVnGsnTMsQhUqskr9wuQ"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/in/mdakbarawais/"><i class="fa-brands fa-linkedin"></i></a>
+
+          </div>
+          <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Mohammed Akbar Awais <i class="fa-solid fa-heart"></i></p>
+
+    </div>
+  </div>
+<script>
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu() {
+  sidemenu.style.right = "0";
+}
+
+function closemenu() {
+  sidemenu.style.right = "-200px";
+}
+</script>
+<form name="submit-to-google-sheet">
+</form>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx1cw0kUz1LMkLMSfx2sK6JyJCRh1EHxZLv2NYt-d2zaX4neGZUMDcH9deh-xQmSxGj/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent Successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</body>
+
+</html>
