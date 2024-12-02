@@ -490,3 +490,7 @@ a {
 .swiggy-pic{
     object-fit: contain;
 }
+
+.net-logo{
+    object-fit: contain !important
+}
